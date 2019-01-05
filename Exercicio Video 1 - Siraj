@@ -37,4 +37,5 @@ print('Precisão KNN: {}'.format(PrecisaoKNN))
 #Escolha do melhor algoritmo
 indiceDeMaiorPrecisao = np.argmax([PrecisaoTree, PrecisaoSVM, PrecisaoKNN])
 Algoritmos = {0: 'Tree', 1: 'SVM', 2: 'KNN'}
-print('O melhor algoritmo classificador de gêneros é: {}'.format(Algoritmos[indiceDeMaiorPrecisao])
+print('O melhor algoritmo classificador de gêneros é: {}'.format(Algoritmos[indiceDeMaiorPrecisao]))
+
